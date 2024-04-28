@@ -7,7 +7,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://example.com/*"
+        "https://kimi.moonshot.cn/*"
+        "https://yiyan.baidu.com/*"
       ],
       "js": ["main.js"],
       "run_at": "document_end",
